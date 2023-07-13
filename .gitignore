@@ -1,0 +1,39 @@
+# Archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Carpeta node_modules generada por npm
+node_modules/
+
+# Archivos de respaldo de Visual Studio Code
+.vscode/
+
+# Carpeta de dependencias de TypeScript
+typings/
+
+# Archivos de registro
+*.log
+
+# Archivos compilados
+*.min.js
+*.min.css
+
+# Directorio de distribución (generado por herramientas de compilación)
+/dist/
+
+# Archivos de configuración de ambiente local
+.env
+
+# Directorio de almacenamiento de paquetes (generado por herramientas de gestión de paquetes)
+/packages/
+
+# Directorio de dependencias específicas de sistema operativo
+/vendor/
+
+# Directorio de archivos temporales
+/temp/
+
+# Archivos de registro de errores
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
