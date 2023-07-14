@@ -1,0 +1,204 @@
+/*RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Global styles*/
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Arimo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/*Home*/
+#NavBar {
+    background-color: black;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+}
+#LogoHC-circular{
+    height: 10vh;
+}
+#Sections{
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    
+}
+#Sections a{
+    color: #00b600;
+    font-size: 30px;
+    margin: 20px;
+}
+
+#Home{
+    width: 100%;
+    position: relative;
+}
+#TitleContainer{
+    width: 40vw;
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+}
+#Home label{
+    font-size: 5vw;
+}
+
+#Mona-robot{
+    width: 100%;
+}
+#LogoCompletoHCFhazel{
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    width: 35vw;
+}
+
+/*Services*/
+#Subtitle{
+    margin-left: 4vw;
+    margin-bottom: 15vh;
+    font-size: 3vw;
+    width: 50%;
+}
+
+#Services{
+    background-color: #00b600;
+    height: 30vh;
+    color: black;
+    display: flex;
+    margin-bottom: 5%;
+}
+.Service{
+    width: 30%;
+    padding: 1vw;
+}
+.Service h1{
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 1vw;
+}
+.Service h2{
+    margin-top: 2vw;
+    margin-left: 1vw;
+    font-size: 1.5vw;
+}
+
+/*Previous works*/
+#PW{
+    margin: 5%;
+    font-size: 5vw;
+}
+#Portfolio{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.Separator{
+    width: 90%;
+    height: 2px;
+    background-color: #00b600;
+}
+.Work-Section
+{
+    margin-bottom: 10%;
+}
+.Work-Section label
+{
+    color: #00b600;
+    font-size: 4vw;
+}
+.Works-Container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas con tamaño flexible */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas con tamaño flexible */
+    gap: 5vw; /* espacio entre los cuadros */
+}
+.work{
+    background-color: #00b600;
+    width: 10vw;
+    height: 10vw;
+}
+
+footer{
+    background-color: #00b600;
+    height: 20vh;
+}
+
+
+@media (max-width: 1000px) {
+    #Services{
+        height: 20vh; 
+    }
+}
+
+@media (max-width: 650px) {
+    #Subtitle{
+        margin-bottom: 5vh;
+    }
+
+    .Service h2{
+        font-size: 2vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #Services{
+        height: 12vh; 
+    }
+}
+
+@media (max-width: 500px) {
+    #Services{
+        height: 12vh; 
+    }
+}
