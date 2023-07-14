@@ -169,10 +169,101 @@ a{
     height: 10vw;
 }
 
-footer{
-    background-color: #00b600;
+/*Contact*/
+#mc_embed_shell{
+    margin-bottom: 50px;
+}
+#mc_embed_signup{
+    position: relative;
+}
+
+#mc_embed_signup_scroll h2{
+    position: absolute;
+    right: 5%;
+    top: 35%;
+    font-size: 3vw;
+    width: 50%;
+}
+.mc-field-group label{
+    font-size: 2vw;
+}
+#form-fields-container{
+    background-color: red;
+    border-radius: 20px;
+    width: 40%;
+}
+#fields{
+    margin-left: 10%;
+    padding: 5px;
+}
+#mce-EMAIL{
+    width: 80%;
+    height: 25%;
+}
+#mce-FNAME{
+    width: 80%;
+    height: 30%;
+}
+.button{
+    width: 40%;
+    height: 30%;
+    margin-top: 10px;
+}
+#lets-chat-container{
+    position: relative;
     height: 20vh;
 }
+#lets-chat{
+    position: absolute;
+    right: 5%;
+}
+#myInfo-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+#myInfo-container div{
+    margin-left: 10px;
+}
+#myInfo h2{
+    margin-bottom: 20px;
+}
+#contact-buttons{
+    display: flex;
+    flex-direction: column;
+}
+#contact-buttons button{
+    margin-bottom: 10px;
+}
+
+
+footer{
+    background-color: rgb(43, 41, 41);
+    height: 20vh;
+}
+.contact-box
+{
+    height: 5vh;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: rgb(250, 250, 240);
+  background-color: rgb(43, 41, 41);
+  justify-content: space-between;
+}
+.icon img
+{
+  height: 3vw;
+  width: 4vw;
+  margin-top: 20px;
+}
+#privacy-policy{
+    margin: 50px;
+    text-align: center;
+}
+
 
 
 @media (max-width: 1000px) {
@@ -191,14 +282,20 @@ footer{
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
     #Services{
         height: 12vh; 
     }
-}
 
-@media (max-width: 500px) {
-    #Services{
-        height: 12vh; 
+    #Sections{
+        margin: 5px;
+    }
+
+    #Sections a{
+        font-size: 20px;
+    }
+
+    .button{
+        width: 80px;
     }
 }
