@@ -168,6 +168,33 @@ a{
     width: 10vw;
     height: 10vw;
 }
+/*Team*/
+.Teammate-Container
+{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-bottom: 400px;
+}
+.teammate{
+    text-align: center;
+    margin: 30px;
+    position: absolute;
+    left: 30%
+}
+.teammate a{
+    text-decoration-color: none;
+    text-decoration: none;
+    color: grey;
+}
+.teammate img
+{
+    border-radius:  50%;
+    width: 90px;
+}
+.teammate-description{
+    width: 300px;
+}
 
 /*Contact*/
 #mc_embed_shell{
