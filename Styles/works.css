@@ -71,7 +71,7 @@ a{
 }
 .video{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 20vh;
 }
 iframe{
     width: 60vw;
@@ -79,7 +79,7 @@ iframe{
 }
 .work-description
 {
-    margin-top: 5%;
+    margin-top: 10vh;
     width: 100vw;
     height: 25vh;
     position: relative;
@@ -87,14 +87,14 @@ iframe{
 .description
 {
     width: 60vw;
-    height: 25vh;
+    height: 10vh;
     position: absolute;
     left: 20%;
     text-align: center;
 }
 .play-button
 {
-    margin-top: 10px;
+    margin-top: 10vh;
     font-size: 30px;
     text-align: center;
 }
