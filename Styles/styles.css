@@ -165,8 +165,12 @@ a{
 }
 .work{
     background-color: #00b600;
-    width: 10vw;
-    height: 10vw;
+    width: 20vw;
+    height: 20vw;
+}
+.work span
+{
+    font-size: 2vw;
 }
 .client
 {
@@ -193,13 +197,13 @@ a{
     display: flex;
     width: 90%;
     position: relative;
-    margin-bottom: 500px;
+    margin-bottom: 50vw;
 }
 .teammate{
     text-align: center;
     margin: 30px;
     position: absolute;
-    left: 30%
+    left: 30%;
 }
 .teammate a{
     text-decoration-color: none;
@@ -209,11 +213,11 @@ a{
 .teammate img
 {
     border-radius:  50%;
-    width: 120px;
+    width: 13vw;
 }
 .teammate-description{
-    width: 300px;
-    font-size: 20px;
+    width: 25vw;
+    font-size: 2vw;
 }
 
 /*Contact*/
@@ -319,6 +323,13 @@ footer{
     }
 }
 
+@media (max-width: 800px) {
+    #Sections a{
+        font-size: 20px;
+        margin: 5px;
+    }
+}
+
 @media (max-width: 650px) {
     #Subtitle{
         margin-bottom: 5vh;
@@ -329,17 +340,14 @@ footer{
     }
 }
 
-@media (max-width: 520px) {
+@media (max-width: 540px) {
     #Services{
         height: 12vh; 
     }
 
-    #Sections{
-        margin: 5px;
-    }
-
     #Sections a{
-        font-size: 20px;
+        font-size: 3vw;
+        margin: 2px;
     }
 
     .button{
