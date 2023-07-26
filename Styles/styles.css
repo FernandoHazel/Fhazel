@@ -353,4 +353,9 @@ footer{
     .button{
         width: 80px;
     }
+
+    .Teammate-Container
+    {
+        margin-bottom: 60vw;
+    }
 }
