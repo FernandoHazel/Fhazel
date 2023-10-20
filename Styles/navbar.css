@@ -77,4 +77,27 @@ body {
     .menu li a {padding: 10px;}
     .open-menu , .close-menu {display: block;}
     #check:checked ~ .menu {right: 0;}
+
+    #Services{
+        flex-direction: column;
+        height: auto;
+    }
+    .Service{
+        margin-left: 35%;
+    }
+
+    .Works-Container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15vw;
+    }
+    .work{
+        width: 50vw;
+        height: 50vw;
+    }
+    .client{
+        width: 50vw;
+        height: 50vw;
+    }
+    
 }

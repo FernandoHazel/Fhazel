@@ -25,7 +25,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    --color1: rgb(0, 0, 0) ;
+    --color2: #00b600;
+    --color3: red;
 }
 ol, ul {
 	list-style: none;
@@ -57,31 +60,6 @@ a{
 }
 
 /*Home*/
-
-/*Nav Bar*/
-#NavBar {
-    background-color: black;
-    height: 10vh;
-    width: 100%;
-    z-index: 1;
-    position: fixed;
-}
-#LogoHC-circular{
-    height: 10vh;
-}
-#Sections{
-    position: absolute;
-    right: 5%;
-    top: 35%;
-    
-}
-#Sections a{
-    color: #00b600;
-    font-size: 30px;
-    margin: 20px;
-}
-/*Nav Bar*/
-
 #Home{
     width: 100%;
     position: relative;
@@ -109,17 +87,33 @@ a{
 /*Services*/
 #Subtitle{
     margin-left: 4vw;
-    margin-bottom: 15vh;
+    margin-bottom: 5px;
+    margin-top: 5px;
     font-size: 3vw;
     width: 50%;
 }
-
+#Technologies{
+    margin-left: 4vw;
+    margin-bottom: 10px;
+}
+#Technologies-container{
+    display: flex;
+    margin-left: 4vw;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#Technologies-container img{
+    width: 5vw;
+    height: 5vw;
+    
+}
 #Services{
-    background-color: #00b600;
+    background-color: var(--color2);
     height: 30vh;
     color: black;
     display: flex;
     margin-bottom: 5%;
+    text-align: center;
 }
 .Service{
     width: 30%;
@@ -148,7 +142,7 @@ a{
 .Separator{
     width: 90%;
     height: 2px;
-    background-color: #00b600;
+    background-color: var(--color2);
 }
 .Work-Section
 {
@@ -156,7 +150,7 @@ a{
 }
 .Work-Section label
 {
-    color: #00b600;
+    color: var(--color2);
     font-size: 4vw;
 }
 .Works-Container{
@@ -167,9 +161,10 @@ a{
     gap: 5vw; /* espacio entre los cuadros */
 }
 .work{
-    background-color: #00b600;
+    background-color: var(--color2);
     width: 20vw;
     height: 20vw;
+    margin: 20px;
 }
 .work span
 {
@@ -211,7 +206,7 @@ a{
 .teammate a{
     text-decoration-color: none;
     text-decoration: none;
-    color: grey;
+    color: var(--color3);
 }
 .teammate img
 {
@@ -221,6 +216,11 @@ a{
 .teammate-description{
     width: 25vw;
     font-size: 2vw;
+}
+.teammate-description h1{
+    margin: 5px;
+    font-weight: bold;
+    color: var(--color2);
 }
 
 /*Contact*/
@@ -309,16 +309,14 @@ footer{
 }
 .icon img
 {
-  height: 3vw;
-  width: 4vw;
-  margin-top: 20px;
+  height: 6vw;
+  width: 7vw;
+  margin-top: 10px;
 }
 #privacy-policy{
     margin: 50px;
     text-align: center;
 }
-
-
 
 @media (max-width: 1000px) {
     #Services{
