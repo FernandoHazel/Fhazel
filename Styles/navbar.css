@@ -89,7 +89,7 @@ body {
     .Works-Container{
         display: flex;
         flex-direction: column;
-        margin-left: 15vw;
+        margin-left: 10vw;
     }
     .work{
         width: 50vw;
