@@ -57,6 +57,8 @@ a{
 }
 
 /*Home*/
+
+/*Nav Bar*/
 #NavBar {
     background-color: black;
     height: 10vh;
@@ -78,6 +80,7 @@ a{
     font-size: 30px;
     margin: 20px;
 }
+/*Nav Bar*/
 
 #Home{
     width: 100%;

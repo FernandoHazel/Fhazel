@@ -4,27 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/navbar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="Resources/img/LogoHC-circular.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Arimo&family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
     <title>Fhazel</title>
 </head>
 <body>
+
     <!--Navbar-->
-    <div id="NavBar">
-        <a href="https://fhazel.com.mx">
-            <img id="LogoHC-circular" src="Resources/img/LogoHC-circular.png" alt="LogoHC-circular">
-        </a>
-        
-        <div id="Sections">
-            <a href="#Mobile">Mobile</a>
-            <a href="#Web">Web</a>
-            <a href="#Animation">Animation</a>
-            <a href="#Team">Team</a>
-            <!-- <a href="#Clients">Clients</a>-->
-            <a href="#Contact">Contact</a>
-        </div>
-    </div>
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='#'><img src='Resources/img/LogoHC-circular.png'/></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="#Mobile">Mobile</a></li>
+                    <li><a href="#Web">Web</a></li>
+                    <li><a href="#Animation">Animation</a></li>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
 
     <!--Home-->
     <article id="Home">
