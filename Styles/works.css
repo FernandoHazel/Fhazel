@@ -79,22 +79,23 @@ iframe{
 }
 .work-description
 {
-    margin-top: 10vh;
+    margin-top: 30px;
     width: 100vw;
     height: 25vh;
     position: relative;
+    margin-bottom: 50px;
 }
 .description
 {
-    width: 60vw;
-    height: 10vh;
+    width: 80vw;
+    height: auto;
     position: absolute;
-    left: 20%;
-    text-align: center;
+    left: 10%;
+    text-align: start;
 }
 .play-button
 {
-    margin-top: 10vh;
+    margin-top: 20px;
     font-size: 30px;
     text-align: center;
 }
