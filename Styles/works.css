@@ -93,6 +93,10 @@ iframe{
     left: 10%;
     text-align: start;
 }
+.description h2
+{
+    margin-bottom: 10px;
+}
 .play-button
 {
     margin-top: 20px;

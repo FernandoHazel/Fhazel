@@ -95,6 +95,8 @@ a{
 #Technologies{
     margin-left: 4vw;
     margin-bottom: 10px;
+    font-size: 5vw;
+    color: var(--color3)
 }
 #Technologies-container{
     display: flex;
@@ -105,11 +107,11 @@ a{
 #Technologies-container img{
     width: 5vw;
     height: 5vw;
-    
+    margin: 5px;
 }
 #Services{
     background-color: var(--color2);
-    height: 30vh;
+    height: auto;
     color: black;
     display: flex;
     margin-bottom: 5%;
