@@ -181,8 +181,8 @@ a{
     margin: 10px;
 }
 .work img{
-    width: 40vh;
-    height: 40vh;
+    width: 20vw;
+    height: 20vw;
     border-radius: 10px;
 
     box-shadow: 0 3px 3px rgba(255, 255, 255, 0.3); /* Agrega una sombra */
@@ -353,6 +353,12 @@ footer{
 
     .Service h2{
         font-size: 2vw;
+    }
+
+    .work img{
+        width: 50vw;
+        height: 50vw;
+
     }
 }
 
