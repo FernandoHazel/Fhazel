@@ -24,6 +24,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+/*RESET*/
+
 body {
     line-height: 1;
     --color1: rgb(0, 0, 0) ;
@@ -385,4 +387,5 @@ footer{
     .button{
         width: 80px;
     }
+    
 }

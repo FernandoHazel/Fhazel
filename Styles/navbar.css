@@ -59,6 +59,7 @@ body {
     right: 20px;
 }
 #check {display: none;}
+
 @media(max-width: 680px){
     .menu {
         flex-direction: column;
