@@ -31,6 +31,7 @@ body {
     --color1: rgb(0, 0, 0) ;
     --color2: #00b600;
     --color3: red;
+    --color4: gray;
 }
 ol, ul {
 	list-style: none;
@@ -85,6 +86,64 @@ a{
     left: 1%;
     width: 35vw;
 }
+
+#Profile{
+    text-align: center; 
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between;
+}
+#CV-button {
+    text-decoration: none;
+    color: var(--color3);
+    font-size: 3vw;
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: var(--color3); /* Fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Quitar el borde por defecto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al estilo de un botón */
+    transition: background-color 0.3s ease; /* Suavizar el cambio de color */
+    margin-top: 30px;
+}
+
+#CV-button:hover {
+    background-color: var(--color2); /* Cambiar el color al pasar el ratón */
+}
+#YT-button {
+    text-decoration: none;
+    color: var(--color3);
+    font-size: 3vw;
+    padding: 10px 20px; /* Espaciado interno */
+    background-color: var(--color4); /* Fondo del botón */
+    color: white; /* Color del texto */
+    border: none; /* Quitar el borde por defecto */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al estilo de un botón */
+    transition: background-color 0.3s ease; /* Suavizar el cambio de color */
+    margin-top: 30px;
+}
+
+#YT-button:hover {
+    background-color: var(--color2); /* Cambiar el color al pasar el ratón */
+}
+#Profile img{
+    display: block;
+    width: 35vw;
+}
+.teammate-description{
+    width: 40vw;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+.teammate-description h1{
+    font-weight: bold;
+    color: var(--color2);
+    margin-bottom: 30px;
+}
+
 
 /*Services*/
 #Subtitle{
@@ -213,48 +272,7 @@ a{
 
     box-shadow: 0 6px 6px rgba(255, 255, 255, 0.5); /* Agrega una sombra */
 }
-/*Team*/
-#Team-Container{
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-}
-.Teammate-Container
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.teammate{
-    text-align: center;
-    left: 30%;
-    display: flex;
-    flex-direction: column;
-}
-.teammate a{
-    text-decoration-color: none;
-    text-decoration: none;
-    color: var(--color3);
-    font-size: 3vw;
-}
-.teammate img
-{
-    display: block;
-    margin: 0 auto;
-    border-radius:  50%;
-    width: 14vw;
-}
-.teammate-description{
-    width: 25vw;
-    font-size: 3vw;
-}
-.teammate-description h1{
-    font-weight: bold;
-    color: var(--color2);
-}
+
 
 /*Contact*/
 #mc_embed_shell{
@@ -296,13 +314,29 @@ a{
     height: 30%;
     margin-top: 10px;
 }
-#lets-chat-container{
-    position: relative;
-    height: 20vh;
+
+
+footer{
+    background-color: rgb(43, 41, 41);
+    height: 30vh;
+}
+.contact-box
+{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  justify-content: space-between;
+}
+.icon img
+{
+  height: 5vw;
+  width: 6vw;
+  margin-top: 10px;
 }
 #lets-chat{
-    position: absolute;
-    left: 5%;
+    margin-left: 10px;
 }
 #myInfo-container{
     display: flex;
@@ -310,7 +344,7 @@ a{
     margin-top: 2vh;
 }
 #myInfo-container div{
-    margin-left: 8px;
+    margin-right: 30px;
 }
 #myInfo h2{
     margin-bottom: 20px;
@@ -322,35 +356,6 @@ a{
 #contact-buttons button{
     margin-bottom: 10px;
 }
-
-
-footer{
-    background-color: rgb(43, 41, 41);
-    height: 20vh;
-}
-.contact-box
-{
-    height: 5vh;
-  display: flex;
-  justify-content: flex-start;
-  margin-top: 10px;
-  padding-left: 5vw;
-  padding-right: 5vw;
-  color: rgb(250, 250, 240);
-  background-color: rgb(43, 41, 41);
-  justify-content: space-between;
-}
-.icon img
-{
-  height: 6vw;
-  width: 7vw;
-  margin-top: 10px;
-}
-#privacy-policy{
-    margin-top: 100px;
-    text-align: center;
-}
-
 @media (max-width: 1000px) {
     #Services{
         height: 20vh; 
