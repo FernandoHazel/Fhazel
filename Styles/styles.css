@@ -319,6 +319,9 @@ a{
 footer{
     background-color: rgb(43, 41, 41);
     height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .contact-box
 {
@@ -333,28 +336,16 @@ footer{
 {
   height: 5vw;
   width: 6vw;
-  margin-top: 10px;
+}
+#Contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 #lets-chat{
-    margin-left: 10px;
-}
-#myInfo-container{
-    display: flex;
-    flex-direction: row;
-    margin-top: 2vh;
-}
-#myInfo-container div{
-    margin-right: 30px;
-}
-#myInfo h2{
-    margin-bottom: 20px;
-}
-#contact-buttons{
     display: flex;
     flex-direction: column;
-}
-#contact-buttons button{
-    margin-bottom: 10px;
+    text-align: center;
 }
 @media (max-width: 1000px) {
     #Services{
