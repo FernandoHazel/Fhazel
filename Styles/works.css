@@ -77,6 +77,14 @@ iframe{
     width: 80vw;
     height: 60vw;
 }
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
 .work-description
 {
     margin-top: 30px;
